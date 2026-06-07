@@ -18,7 +18,7 @@ export default function TextHeart() {
     if (!ctx) return;
 
     const img = new Image();
-    img.src = '/risa.jpeg';
+    img.src = './risa.jpeg';
 
     let animationFrameId: number;
     let points: Point[] = [];
